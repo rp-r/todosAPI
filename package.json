@@ -1,0 +1,23 @@
+{
+  "name": "rtodos",
+  "private": true,
+  "version": "0.0.0",
+  "type": "module",
+  "scripts": {
+    "dev": "vite",
+    "build": "tsc && vite build",
+    "preview": "vite preview",
+    "server": "json-server --watch data/db.json --port 3000"
+  },
+  "devDependencies": {
+    "sass-embedded": "^1.99.0",
+    "typescript": "~6.0.2",
+    "vite": "^8.0.4"
+  },
+  "dependencies": {
+    "axios": "^1.15.0",
+    "bootstrap": "^5.3.8",
+    "colorjs.io": "^0.6.1",
+    "json-server": "^1.0.0-beta.15"
+  }
+}
